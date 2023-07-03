@@ -1,1 +1,2 @@
-# freddiescomputerrepair.github.io
+# Freddies Computer Repair
+https://freddiescomputerrepair.github.io/
