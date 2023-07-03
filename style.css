@@ -1,0 +1,136 @@
+html{scroll-behavior: smooth;}
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Courier New', monospace;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #111;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+#hero {
+  text-align: center;
+  padding: 100px 0;
+}
+
+#hero h1 {
+  color: #00f;
+  font-size: 68px;
+  margin-bottom: 20px;
+}
+
+#hero p {
+  font-size: 28px;
+}
+
+section {
+  padding: 50px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  font-size: 25px;
+}
+.containerx {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  font-size: 25px;
+  text-align: center;
+}
+
+h2 {
+  color: #fff;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.service {
+  padding: 20px;
+  background-color: #222;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+.service h3 {
+  color: #00f;
+  font-size: 24px;
+  margin-top: 0;
+  text-align: center;
+}
+.review {
+  padding: 20px;
+  background-color: #222;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.review h3 {
+  color: rgb(43, 255, 0);
+  font-size: 24px;
+  margin-top: 0;
+  text-align: center;
+}
+
+footer {
+  background-color: #111;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  nav ul li a {
+    font-size: 14px;
+  }
+
+  #hero h1 {
+    font-size: 36px;
+  }
+
+  #hero p {
+    font-size: 16px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  .service h3 {
+    font-size: 20px;
+  }
+
+  footer p {
+    font-size: 12px;
+  }
+}
+b{color:rgb(0, 170, 0)}
