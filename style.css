@@ -134,3 +134,9 @@ footer p {
   }
 }
 b{color:rgb(0, 170, 0)}
+ .logo-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
