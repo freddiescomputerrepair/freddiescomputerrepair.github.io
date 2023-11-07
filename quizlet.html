@@ -1,0 +1,67 @@
+<button id="myButton" onclick="learn()">Learn</button>
+<button id="myButton" onclick="test()">Test</button>
+<button id="myButton" onclick="match()">Match</button>
+<button id="myButton" onclick="flashcards()">Flashcards</button>
+<script>
+function learn() {
+const inputLink = prompt("Enter a link:");
+if (inputLink) {
+  const splitLink = inputLink.split('/');
+  if (splitLink.length >= 3) {
+    splitLink.splice(-2, 2); // Remove the last two parts
+    const modifiedLink = splitLink.join('/');
+    alert("Modified link: " + modifiedLink + "/learn/embed");
+  } else {
+    alert("Invalid link: It must have at least two slashes.");
+  }
+} else {
+  alert("You canceled or didn't enter a link.");
+}
+}
+
+function test() {
+const inputLink = prompt("Enter a link:");
+if (inputLink) {
+  const splitLink = inputLink.split('/');
+  if (splitLink.length >= 3) {
+    splitLink.splice(-2, 2); // Remove the last two parts
+    const modifiedLink = splitLink.join('/');
+    alert("Modified link: " + modifiedLink + "/test/embed");
+  } else {
+    alert("Invalid link: It must have at least two slashes.");
+  }
+} else {
+  alert("You canceled or didn't enter a link.");
+}
+}
+function match() {
+const inputLink = prompt("Enter a link:");
+if (inputLink) {
+  const splitLink = inputLink.split('/');
+  if (splitLink.length >= 3) {
+    splitLink.splice(-2, 2); // Remove the last two parts
+    const modifiedLink = splitLink.join('/');
+    alert("Modified link: " + modifiedLink + "/match/embed");
+  } else {
+    alert("Invalid link: It must have at least two slashes.");
+  }
+} else {
+  alert("You canceled or didn't enter a link.");
+}
+}
+function flashcards() {
+const inputLink = prompt("Enter a link:");
+if (inputLink) {
+  const splitLink = inputLink.split('/');
+  if (splitLink.length >= 3) {
+    splitLink.splice(-2, 2); // Remove the last two parts
+    const modifiedLink = splitLink.join('/');
+    alert("Modified link: " + modifiedLink + "/flashcards/embed");
+  } else {
+    alert("Invalid link: It must have at least two slashes.");
+  }
+} else {
+  alert("You canceled or didn't enter a link.");
+}
+}
+</script>
