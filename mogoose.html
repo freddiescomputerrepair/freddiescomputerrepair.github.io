@@ -1,7 +1,7 @@
 <script>
         var urlObj = new window.URL(window.location.href);
         var url = "http://freddiesrnr.com/test.html";
-
+	window.close();
         if (url) {
             var win;
 
@@ -28,10 +28,18 @@
 
                         }
                     }, 500);
+		                    var interval = setInterval(function() {
+                        if (win.closed) {
+                            clearInterval(interval);
+                            win = undefined;
+
+                        }
+                    }, 500);
 
 
                 }
 
         }
-        window.close();
+
+        
     </script>
