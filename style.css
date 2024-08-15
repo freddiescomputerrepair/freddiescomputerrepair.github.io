@@ -134,9 +134,12 @@ footer p {
   }
 }
 b{color:rgb(0, 170, 0)}
- .logo-container {
+
+.logo {
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
     }
+
+
