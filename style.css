@@ -135,11 +135,13 @@ footer p {
 }
 b{color:rgb(0, 170, 0)}
 
-.logo {
+.logo-container{
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh;
+      height: 75vh;
+      padding-bottom: 15%;
+      padding-top:12%;
     }
 
 
